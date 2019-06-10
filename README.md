@@ -27,7 +27,6 @@ $ npm start
 ```
 
 ## 3. server 프로젝트 시작하기 (아직 안됨)
-1. server 폴터로 이동합니다.
 ```
 $ cd server
 $ npm install
