@@ -4,6 +4,7 @@
 
 1. 트러플: ```$ npm install -g truffle@5.0.21```
 2. 가나슈: https://www.trufflesuite.com/ganache
+3. 메타마스크: https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn
 
 Note: 가나슈 설치후 기본 개발환경 세팅까지 완료해주세요! (**port: 8545**)
 
