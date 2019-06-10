@@ -15,22 +15,14 @@ $ truffle compile
 $ truffle migrate
 ```
 **NOTE: compiler 버전 에러가 생기는 경우, 현재 설치된 truffle 버전이 5.0.21 이상이 맞는지 확인해주세요!**
+
 **NOTE: Could not connect to your Ethereum client with the following parameters 라고 나오면서 migrate가 되지 않는 경우, ganache 서버를 실행하고 (실행한채로 두고) 포트가 8545가 맞는지 확인한 후 다시 시도해보세요!**
 
 ## 2. client 프로젝트 시작하기
 
-1. client 폴터로 이동합니다.
 ```
 $ cd client
-```
-
-2. package.json에 정의된 모듈들을 설치합니다.
-```
 $ npm install
-```
-
-3. react앱을 실행합니다.
-```
 $ npm start
 ```
 
@@ -38,15 +30,7 @@ $ npm start
 1. server 폴터로 이동합니다.
 ```
 $ cd server
-```
-
-2. package.json에 정의된 모듈들을 설치합니다.
-```
 $ npm install
-```
-
-3. node 서버를 실행합니다.
-```
 $ npm start
 ```
 
