@@ -50,3 +50,33 @@ npm run test
 // 실행하기전 client 폴더에 있는지 확인하세요!
 npm run build
 ```
+
+## 6. 프로젝트 SPEC
+1. CLIENT
+  - REACT
+  - MOBX
+  - SCSS
+2. SERVER
+  - NODE / KOA
+  - RESTFUL API
+  - OAUTH2
+  - ORM (sequelize)
+
+## 7. TODOs
+1. CLIENT
+  - 메인 페이지
+  - 로그인 페이지
+  - 회원가입 페이지
+  - 유저 정보 페이지
+  - 상품 리스트 페이지
+  - 상품 상세 페이지
+  - 게시판 페이지
+2. SERVER
+  - 유저
+  - 유저 등급
+  - 상품
+  - 상품 댓글
+  - 게시판 (qna, 공지사항)
+  - 게시판 댓글
+  - 거래내역 (해시 주소 포함)
+  - 유저 블랙리스트
