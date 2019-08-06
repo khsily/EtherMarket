@@ -1,0 +1,47 @@
+header{
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+
+  ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-sub-nav {
+    justify-content: flex-end;
+
+    .header-sub-nav-list {
+      padding: 10px;
+      font-size: 12px;
+      color: #aaa;
+      font-weight: bold;
+    }
+  }
+
+  .header-main {
+    display: flex;
+
+    .header-logo {
+      width: 108px;
+      height: 63px;
+    }
+
+    .header-main-nav {
+      padding-left: 40px;
+      align-items: center;
+
+      .header-main-nav-list {
+        padding: 20px;
+        font-size: 16px;
+        color: #aaa;
+        font-weight: bold;
+
+        &.active {
+          color: #f33;
+        }
+      }
+    }
+  }
+}
